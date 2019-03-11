@@ -8,3 +8,8 @@
 {% block pubdate %}
     <time datetime="2019-03-11" pubdate>Mar. 11, 2019</time>
 {% endblock %}
+{% block content %} 
+{% for obj in site.data.harvard_park_homicides %}
+ {{obj.last_name}}</br>
+{% endfor %}
+{% endblock %}
