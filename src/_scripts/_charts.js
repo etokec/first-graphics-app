@@ -72,4 +72,4 @@ function createChart(el, fieldname){
 }
 
 createChart("#county-homicides","homicides_total");
-createChart("#county-homicides","homicides_harvard_park");
+createChart("#harvard-park-homicides","homicides_harvard_park");
