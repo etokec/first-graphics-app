@@ -4,7 +4,7 @@
 
 
 {% block headline %}A South L.A. neighborhood grapples with a wave of violence {% endblock %}
-{% block byline %}by me{% endblock %}
+{% block byline %} By <a href="http://www.firstgraphicsapp.org/">The First Graphics App Tutorial</a> {% endblock %}
 {% block pubdate %}
     <time datetime="2019-03-11" pubdate>Mar. 11, 2019</time>
 {% endblock %}
